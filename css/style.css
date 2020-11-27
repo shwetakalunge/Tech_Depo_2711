@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', 'Arial';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+/*--------------------------------------------------------- */
+/* -------------Reusable Componente--------------- ---------------------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------HEADER-----------------------------------------------------------------------------------------------------*/
+
+header {
+    background-image: url(../Assets/banner2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center
+}
+
+/*.hero-text-box {
+    text-align: center;
+    position: absolute;
+    top: 00%;
+    left: 50%;
+    transform: translateX(-50%)translateY(50%);
+    padding: 20px;
+    width: 100%;
+    
+
+}
+
+.hero-text-box h1 {
+    font-size: 80px;
+    padding: 10px 20px;
+
+    font-family: 'Volkhov', serif;
+}
+
+.hero-text-box h2 {
+    font-size: 50px;
+    font-family: 'Volkhov', serif;
+
+}*/
+
+.button {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+/*----------------------------------------------------------------------------MAIN-NAVIGATION---------------------------------------------------------*/
+.main-nav {
+    text-align: center;background-image: url(../Assets/banner2.jpg);
+}
+
+.nav ul li {
+    text-align: center
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    text-align: center
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 10px 0px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px solid #e67e22
+}
+
+/*--------------------------------------HERO IMAGE PARAGRAPH---------------------------------------------------------------------------*/
+.hero-paragraph {
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*---------------------VIDEO SECTION-------------------------------*/
+.Video_Section {
+    margin-top: 40px
+}
+
+.video_box {
+    display: flex;
+
+}
+
+.video_box video {
+    width: 60%;
+}
+
+.video_box text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    font-size: 20px
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*
+.Section_long_copy {
+    background-color: antiquewhite;
+}
+
+.long_copy {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.long_copy p {
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+}
+
+.button2 {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+*/
+
+.Section_long_copy {
+    background-color: antiquewhite;
+}
+
+.long_copy {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.long_copy p {
+    font-size: 14px;
+    padding: 10px 10px 20px 10px;
+}
+
+/*
+
+.button2 {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 00px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+   
+
+}
+*/
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.Grid_Image {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px
+}
+
+.Main_GridImages {
+    background-color: black
+}
+
+.Main_GridImages h3,
+.Main_GridImages p {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    padding: 10px
+}
+
+.box3 {
+
+    padding: 20px;
+    display: inline-flex;
+    background-color: black;
+    color: white
+}
+
+.imgBx {
+    width: 100%;
+    flex: 0 0 250px;
+
+}
+
+.imgBx img {
+    max-width: 100%;
+}
+
+.content {
+    font-size: 12px;
+    width: 100%;
+    background-color: white;
+    color: black;
+
+}
+
+.content h4 {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration-line: underline;
+}
+
+.content li {
+    padding: 10px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+.Patent_Pending_Section {
+    background-image: url(../Assets/call-bg-banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.Patent_Pending_Section img {
+    width: 50%;
+    padding: 20px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+.Section_work_product {
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    margin: auto
+}
+
+.work_product_box {
+    box-shadow: 4px 2px 3px 2px #9d9d9d;
+    background-color: white;
+    text-align: center;
+}
+
+.work_product_box p {
+    font-size: 12px;
+    padding: 15px;
+}
+
+.work_product_box h4 {
+    font-size: 18px;
+    padding: 15px;
+}
+
+/*-----------------------------------------------------------------------------------FIND_OUT_MORE-------------------------------------------------------------------------*/
+.Find_out_more {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+
+}
+
+.Find_out_more h3 {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px
+}
+
+.Find_out_more p {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.button3 {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white
+}
+
+/*---------------------------------------------------------------------------------SECURITY WE PROVIDE----------------------------------------*/
+
+.section_security {
+    text-align: center;
+    background-color: rgba(227, 227, 227, 0.71);
+
+}
+
+.section_security h3 {
+    font-size: 40px;
+
+    padding: 20px
+}
+
+.section_security_box {
+    box-shadow: 1px 1px 1px #222222;
+    background-color: white
+}
+
+.section_security_box h3 {
+    padding: 10px;
+    font-size: 25px
+}
+
+.section_security_box p {
+    font-size: 90%;
+    line-height: 155%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.Simple_Pricing {
+    background-image: url(../Assets/laptop2-.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero_pricing_text {
+    /* transform: translateX(10%)translateY(15%);*/
+
+    float: right;
+    margin: auto;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.hero_pricing_text h5 {
+    font-size: 35px;
+
+}
+
+.hero_pricing_text p {
+    font-size: 14px;
+
+}
+
+.hero_pricing_text h6 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.hero_pricing_text li {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.button4 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: black
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+.get_in_touch {
+    background-image: linear-gradient(rgba(42, 42, 42, 0.7), #0b0b0b), url(../Assets/contact-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    text-align: center
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    background: none
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px
+}
+
+input[type=submit]:hover {
+    background-color: #c3ccc4;
+}
+
+
+.container1 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+
+.container2 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.container3 {
+    width: 60%;
+    margin: auto;
+}
+
+.container4 {
+    text-align: center;
+}
