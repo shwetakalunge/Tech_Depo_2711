@@ -1,0 +1,234 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px){
+   .Patent_Pending_Section img {
+    width: 30%;
+    padding: 10px;
+}
+    
+   
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px){
+}
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px){
+    .container1,
+    .container2{
+        display: block
+    }
+    input[type=text],
+select,
+textarea {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 00px;
+}
+    
+.Section_work_product h3{
+    font-size: 20px;
+}
+
+
+.work_product_box p {
+   font-size: 50%;
+    line-height: 125%;
+}
+
+.work_product_box h4 {
+    font-size: 14px;
+    padding: 0px;
+}
+
+
+.Find_out_more h3 {
+    padding: 10px;
+    font-size: 20px
+}
+
+.Find_out_more p {
+    padding: 10px;
+    font-size: 15px
+}
+
+.button3 {
+    padding: 10px 22px;
+    font-size: 13px;
+    margin: 14px 2px;
+    }
+
+.section_security h3 {
+    font-size: 25px;
+    padding: 10px
+}
+.section_security_box img{
+ width: 100px;   
+}
+.section_security_box h4 {
+    padding: 10px;
+    font-size: 15px
+}
+
+.section_security_box p {
+       font-size: 60%;
+    line-height: 135%;
+}
+}
+
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:480px){
+    .Video_Section {
+        margin-top: 10px;
+    }
+    .video_box text {
+    font-size: 15px
+}
+    .Section_long_copy {
+    background-color: antiquewhite;
+}
+
+.long_copy {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.long_copy p {
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Grid_Image {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    padding: 00px
+}
+
+.Main_GridImages {
+    padding: 0px
+}
+
+.Main_GridImages h3,
+.Main_GridImages p {
+       margin-top: 10px;
+    padding: 10px;
+     font-size: 20px;
+}
+.Main_GridImages p{
+    font-size: 10px
+}
+
+.imgBx {
+    width: 100%;
+    flex: 0 0 200px;
+
+}
+
+.imgBx img {
+    max-width: 100%;
+}
+
+.content {
+    font-size: 10px;
+    width: 100%;
+   }
+
+.content h4 {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration-line: underline;
+}
+
+.content li {
+    padding: 10px 20px 00px 10px;
+}
+
+.Patent_Pending_Section img {
+    width: 80%;
+    padding: 00px;
+}
+.Patent_Pending_Section h6{
+      font-size: 20px;
+     padding:20px;
+}
+
+.Section_work_product h3{
+    font-size: 20px;
+    padding: 15px;
+}
+.work_product_box {
+    box-shadow: 4px 2px 3px 2px #9d9d9d;
+    background-color: white;
+    text-align: center;
+}
+
+.work_product_box p {
+   font-size: 70%;
+    line-height: 135%;
+    padding: 5px;
+}
+
+.work_product_box h4 {
+    font-size: 20px;
+    padding: 5px;
+}
+    .Find_out_more {
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.Find_out_more h3 {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.Find_out_more p {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 10px
+}
+
+.button3 {
+    border: none;
+    color: black;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 12px;
+    cursor: pointer;
+    background-color: white
+}
+
+
+.section_security h3 {
+    font-size: 20px;
+
+    padding: 10px
+}
+
+.section_security_box {
+    box-shadow: 10px 10px 21px #222222;
+}
+.section_security_box img{
+ width: 50px;   
+}
+.section_security_box h4 {
+    padding: 5px;
+    font-size: 20px
+}
+
+.section_security_box p {
+       font-size: 50%;
+    line-height: 155%;
+}
+}
