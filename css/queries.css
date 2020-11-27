@@ -84,8 +84,17 @@ textarea {
     .Video_Section {
         margin-top: 10px;
     }
+    .video_box {
+    display:inline-block
+
+}
+.video_box video {
+    width: 100%;
+}
     .video_box text {
-    font-size: 15px
+    font-size: 15px;
+        padding: 10px;
+        text-align: center
 }
     .Section_long_copy {
     background-color: antiquewhite;
@@ -145,15 +154,16 @@ textarea {
 }
 
 .content li {
-    padding: 10px 20px 00px 10px;
+    padding: 5px 5px 00px 5px;
+    
 }
 
 .Patent_Pending_Section img {
-    width: 80%;
+    width: 100%;
     padding: 00px;
 }
 .Patent_Pending_Section h6{
-      font-size: 20px;
+      font-size: 15px;
      padding:20px;
 }
 
